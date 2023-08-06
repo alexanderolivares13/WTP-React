@@ -1,0 +1,60 @@
+html, body {
+
+    background-color: #fdfdfd;
+    opacity: 1;
+    background: repeating-linear-gradient( -45deg, #f0f0f0, #f0f0f0 5.5px, #fdfdfd 5.5px, #fdfdfd 27.5px );
+
+}
+/* Limits size of GIPH that is embeded*/
+iframe {max-width: 128px;
+    max-height: 128px;}
+
+.button.is-rounded.is-dark.is-hovered{
+    background-color: #FF3232;
+}
+
+
+.hero-body {
+    background-color: black;
+
+}
+/* Styled main title of search results page using Pokemon font*/
+.title-main {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #ffcb05;
+    font-size: 65px;
+    text-shadow: 5px 3px 2px #3c5aa6;
+}
+
+.title {
+    background-color: #FF3232;
+    font-family: 'Teko', sans-serif;
+    color: rgb(229, 223, 223);
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    height: 70px;
+
+}
+/*Styled Pokemon stats that are being populated from GIPHY API*/
+p.pokemon-info {
+    background-color: #FF3232;
+    font-family: 'Teko', sans-serif;
+    color:rgb(229, 223, 223);
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+
+}
+/*Styling header of Pokemon info card*/
+h3 {
+    font-family: 'Teko', sans-serif;
+    color:rgb(81, 78, 78);
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(237, 232, 232);
+
+
+}
